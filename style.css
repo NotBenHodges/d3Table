@@ -10,7 +10,7 @@ table{
   height: 300px;
 }
 
-tr.even{
+tr:nth-child(2n){
   background-color: #B6C6F0;
 }
 
