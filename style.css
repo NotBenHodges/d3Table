@@ -1,10 +1,17 @@
 body{
-  background-color: 313D74;
+  background-color: #313D74;
 }
 
 table{
   border: 2px, solid, black;
+  margin-top: 20%;
   margin: auto;
+  width: 300px;
+  height: 300px;
+}
+
+tr.even{
+  background-color: #B6C6F0;
 }
 
 td{
