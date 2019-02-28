@@ -10,7 +10,8 @@ var foodMaker = function(taste,cons,temp){
 var foodData = [
   foodMaker("spicy","chewy","warm"),
   foodMaker("bitter","soft","cold"),
-  foodMaker("sweet","crunchy","hot")
+  foodMaker("sweet","crunchy","hot"),
+  foodMaker("tangy","mushy","lukewarm")
 ]
 
 var foodTable = d3.select("body").append("table");
