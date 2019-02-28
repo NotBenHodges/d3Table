@@ -20,11 +20,11 @@ var foodRows = foodTable.selectAll("tr")
                         .enter()
                         .append("tr");
 
-var foodRows.append("td")
+foodRows.append("td")
             .text(function(d){return d.taste});
 
-var foodRows.append("td")
+foodRows.append("td")
             .text(function(d){return d.cons});
 
-var foodRows.append("td")
+foodRows.append("td")
             .text(function(d){return d.temp});
