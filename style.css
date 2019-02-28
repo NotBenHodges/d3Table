@@ -17,4 +17,6 @@ tr:nth-child(2n){
 td{
   padding: 5px;
   text-align: center;
+  font-size: 200%;
+  font-family: cursive;
 }
