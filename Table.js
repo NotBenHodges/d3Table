@@ -21,10 +21,10 @@ var foodRows = foodTable.selectAll("tr")
                         .append("tr");
 
 foodRows.append("td")
-            .text(function(d){return d.taste});
+        .text(function(d){return d.taste});
 
 foodRows.append("td")
-            .text(function(d){return d.cons});
+        .text(function(d){return d.cons});
 
 foodRows.append("td")
-            .text(function(d){return d.temp});
+        .text(function(d){return d.temp});
