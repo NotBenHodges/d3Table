@@ -3,7 +3,7 @@ body{
 }
 
 table{
-  border: 2px, solid, black;
+  border: 20px solid #000000;
   margin-top: 20%;
   margin: auto;
   width: 300px;
@@ -13,10 +13,19 @@ table{
 tr:nth-child(2n){
   background-color: #B6C6F0;
 }
-
+tr:nth-child(2n + 1){
+  background-color: #FFE8BA;
+}
 td{
   padding: 5px;
   text-align: center;
   font-size: 200%;
   font-family: cursive;
+}
+tr:nth-child(2n + 1){
+  color: #27489d;
+}
+
+tr:nth-child(2n){
+  color: #e9a925;
 }
