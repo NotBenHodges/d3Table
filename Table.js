@@ -14,7 +14,17 @@ var foodData = [
 ]
 
 var foodTable = d3.select("body").append("table");
+
 var foodRows = foodTable.selectAll("tr")
                         .data(foodData)
                         .enter()
                         .append("tr");
+
+var foodRows.append("td")
+            .text(function(d){return d.taste});
+
+var foodRows.append("td")
+            .text(function(d){return d.cons});
+
+var foodRows.append("td")
+            .text(function(d){return d.temp});
