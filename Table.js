@@ -24,7 +24,7 @@ foodRows.append("td")
         .text(function(d){return d.taste});
 
 foodRows.append("td")
-        .text(function(d){return d.cons});
+        .text(function(d){return d.consistency});
 
 foodRows.append("td")
-        .text(function(d){return d.temp});
+        .text(function(d){return d.temperature});
